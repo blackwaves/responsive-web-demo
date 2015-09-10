@@ -55,3 +55,18 @@ legend{color:#000;}
 	background-color: #663300;
 	width: 940px;
 }
+
+/* responsive styles */
+@media screen and (max-width: 768px) {
+	.wrapper {
+		width: 768px;
+	}
+	.header, .footer, .navigation {
+		width: 748px;
+	}
+	.content, .sidebar {
+		padding-left: 10px;
+		padding-right: 10px;
+		width: 728px;
+	}
+}
